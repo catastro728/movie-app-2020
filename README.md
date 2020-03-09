@@ -2,4 +2,6 @@
 
 
 Nodejs (12.14.1)
-npm, npx (6.13.4)
+npm (6.13.4)
+    - npx (npx create-react-app [./])
+    - prop-types
