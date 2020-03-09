@@ -7,7 +7,7 @@ class Home extends React.Component {
   state = {
     isLoading: true,
     movies: []
-  };
+  }; //can save State with Redux
 
   getMovies = async () => {
     const {
@@ -38,6 +38,7 @@ class Home extends React.Component {
           movies.map(movie => (
             <Movies
               key={movie.id}
+              id={movie.id}
               year={movie.year}
               title={movie.title}
               summary={movie.summary}
