@@ -1,0 +1,53 @@
+.movie {
+  margin: 0 2rem 2rem 2rem;
+  width: 40%;
+  background-color: white;
+  padding: 2rem;
+  float: left;
+  box-shadow: 1rem 1rem 2rem -1rem;
+  border-radius: 0.5rem;
+  border-color: whitesmoke;
+}
+img {
+  max-width: 100%;
+  height: auto;
+}
+.poster {
+  float: left;
+  margin: 0.5rem 0.2rem;
+  padding-right: 0.5rem;
+  box-shadow: -1rem 1rem 1rem -1rem;
+}
+.movie__data {
+  padding: 1.5rem;
+  width: 100% !important;
+}
+.movie__title {
+  font-size: 1.5rem;
+}
+.middle {
+  overflow: hidden;
+}
+.movie__year {
+  float: left;
+  margin-right: 2rem;
+  margin-top: 0;
+}
+.movie__rating {
+  margin-top: 0;
+}
+.movie__genres {
+  font-size: 0.8rem;
+  list-style: none;
+  padding-left: 0px;
+  overflow: hidden;
+  margin-top: 0;
+}
+.genres__genre {
+  float: left;
+  margin: 0 0 0 0.5rem;
+}
+
+.movie__summary {
+  font-size: 1rem;
+}

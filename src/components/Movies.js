@@ -5,9 +5,13 @@ import "./Movies.css";
 function Movies({ year, title, summary, poster, rating, genres }) {
   return (
     <div className="movie">
-      <img src={poster} alt={title} title={title}></img>
+      <img className="poster" src={poster} alt={title} title={title}></img>
       <div className="movie__data">
         <h3 className="movie__title">{title}</h3>
+        <div className="middle">
+          <h4 className="movie__year">{year}</h4>
+          <h4 className="movie__rating">{rating}★</h4>
+        </div>
         <ul className="movie__genres">
           {genres.map((genre, index) => (
             <li key={index} className="genres__genre">
@@ -15,9 +19,8 @@ function Movies({ year, title, summary, poster, rating, genres }) {
             </li>
           ))}
         </ul>
-        <h5 className="movie__year">{year}</h5>
-        <p className="movie__rating">Rating : {rating}</p>
-        <p className="movie__summary">{summary.slice(0, 140)}...</p>
+
+        <p className="movie__summary">{summary.slice(0, 250)}...</p>
       </div>
     </div>
   );
