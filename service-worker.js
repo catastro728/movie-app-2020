@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/4.3.1/workbox-sw.js");
 
 importScripts(
-  "/2020-high-rating-movie/precache-manifest.b6080dbb0ffa961defba89823a0aa204.js"
+  "/2020-high-rating-movie/precache-manifest.3665465a0021a3b488ddd72377a61e5a.js"
 );
 
 self.addEventListener('message', (event) => {
