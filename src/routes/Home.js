@@ -30,7 +30,7 @@ class Home extends React.Component {
       <section className="container">
         {isLoading ? (
           <div className="loader">
-            <span className="loader__text">Loading...</span>
+            <h1 className="loader__text">Loading...</h1>
           </div>
         ) : (
           data.movies.map(movie => (

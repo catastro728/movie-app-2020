@@ -2,3 +2,6 @@ body {
   background-color: lightgray;
   height: 100%;
 }
+.loader {
+  text-align: center;
+}
