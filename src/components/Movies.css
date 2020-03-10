@@ -19,29 +19,25 @@ img {
   box-shadow: -1rem 1rem 1rem -1rem;
 }
 .movie__data {
-  padding: 1.5rem;
+  padding-left: 1rem;
   width: 100% !important;
 }
 .movie__title {
-  font-size: 1.5rem;
+  font-size: 1.4rem;
   text-decoration: none;
 }
 .middle {
   overflow: hidden;
 }
-.movie__year {
-  float: left;
-  margin-right: 2rem;
-  margin-top: 0;
-}
 .movie__rating {
+  float: right;
   margin-top: 0;
+  margin-right: 2rem;
 }
 .movie__genres {
   font-size: 0.8rem;
   list-style: none;
-  padding-left: 0px;
-  overflow: hidden;
+  padding-left: 0;
   margin-top: 0;
 }
 .genres__genre {

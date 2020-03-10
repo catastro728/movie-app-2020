@@ -1,0 +1,42 @@
+.detail {
+  margin: 1rem 1rem 1rem 1rem;
+  background-color: white;
+  box-shadow: 1rem 1rem 2rem -1rem;
+  border-radius: 0.5rem;
+  padding-top: 2rem;
+  padding-left: 2rem;
+  overflow: hidden;
+}
+.box_poster {
+  float: left;
+  width: 30%;
+  height: auto;
+  margin-bottom: 2rem;
+}
+.detail__poster {
+  box-shadow: 1rem 1rem 1rem -1rem;
+}
+
+.detail__data {
+  float: right;
+  width: 65%;
+  margin-right: 2rem;
+}
+.detail__title {
+  font-size: 3rem;
+}
+.detail__genres {
+  font-weight: bold;
+  list-style: none;
+  padding-left: 0;
+  overflow: hidden;
+}
+
+.detail__genres__genre {
+  float: left;
+  margin-right: 0.6rem;
+}
+
+.detail.summary {
+  font-size: 1.3rem;
+}
